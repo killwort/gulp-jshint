@@ -1,5 +1,5 @@
 var fs = require('fs');
-var memoize = require('lodash/memoize');
+var memoize = require('lodash.memoize');
 var Minimatch = require('minimatch').Minimatch;
 var resolve = require('path').resolve;
 var dirname = require('path').dirname;
