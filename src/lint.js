@@ -4,10 +4,10 @@ var RcLoader = require('rcloader');
 var jshintcli = require('jshint/src/cli');
 var minimatch = require('minimatch');
 
-var assign = require('lodash/assign');
-var forEach = require('lodash/forEach');
-var isString = require('lodash/isString');
-var isFunction = require('lodash/isFunction');
+var assign = require('lodash/object/assign');
+var forEach = require('lodash/collection/forEach');
+var isString = require('lodash/lang/isString');
+var isFunction = require('lodash/lang/isFunction');
 
 module.exports = function createLintFunction(userOpts) {
   userOpts = userOpts || {};
